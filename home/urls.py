@@ -1,3 +1,7 @@
+"""
+This module handles the URL configurations for the 'home' app.
+"""
+
 from django.urls import path
 from .views import Index
 
