@@ -47,6 +47,10 @@ INSTALLED_APPS = [
     
     # Apps
     'home',
+    
+    # Other
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 SITE_ID = 1
@@ -62,6 +66,8 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
 ]
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 ROOT_URLCONF = 'main.urls'
 
